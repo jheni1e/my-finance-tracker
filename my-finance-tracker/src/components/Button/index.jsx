@@ -6,7 +6,7 @@ export default function Button({ text, type = "primary" }) {
         {type === "primary" &&
         <button className="a">{text}</button>}
         {type === "secondary" &&
-        <button className="a">{text}</button>}
+        <button className="b">{text}</button>}
         </>
     )
 }
