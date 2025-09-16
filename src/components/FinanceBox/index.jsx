@@ -6,7 +6,7 @@ export default function FinanceBox() {
     const [display, setDisplay] = useState('0.00');
 
     const handleChange = (e) => {
-        let val = e.target.value.replace(/[^0-9.,]/g, ''); // keep digits and comma/dot
+        let val = e.target.value.replace(/[^0-9.,]/g, '');
         val = val.replace(',', '.');
         const num = parseFloat(val);
 
@@ -19,7 +19,6 @@ export default function FinanceBox() {
     }
 
     const handleBlur = () => {
-        // Format nicely when input loses focus
         setDisplay(value.toFixed(2));
     }
 
