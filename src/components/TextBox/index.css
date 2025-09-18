@@ -8,8 +8,8 @@
 .textbox {
     border: 2px solid #CCDCE8;
     background-color: #FFFFFF;
-    height: 30px;
-    border-radius: 0;
+    height: 50px;
+    border-radius: 8px;
     padding-left: 10px;
 }
 

@@ -9,7 +9,7 @@
 }
 
 .dropdown {
-    width: 100%;
+    width: fit-content;
     height: 50px;
     padding: 5px;
     color: #2C3E50;

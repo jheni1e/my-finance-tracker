@@ -2,7 +2,6 @@
     font-size: 20px;
     font-weight: normal;
     font-family: Helvetica;
-    color: white;
 }
 
 .primary {
@@ -11,6 +10,7 @@
     background-color: #4A90E2;
     border: 0;
     border-radius: 0;
+    color: white;
 }
 
 .primary:hover {
@@ -28,6 +28,7 @@
     background-color: #5DADE2;
     border: 0;
     border-radius: 0;
+    color: white;
 }
 
 .secondary:hover {

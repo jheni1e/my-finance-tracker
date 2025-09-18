@@ -2,7 +2,6 @@
     font-size: 20px;
     font-weight: normal;
     font-family: Helvetica;
-    color: white;
     margin: 3px;
 }
 
@@ -12,17 +11,18 @@
     padding: 5px;
     width: 120px;
     height: 50px;
-    background-color: #5DADE2;
+    background-color: #4A90E2;
     cursor: pointer;
     transition: border-color 0.25s;
     text-align: center;
+    color: white;
 }
 
 .button:hover {
-    background-color: #4A90E2;
+    background-color: #357ABD;
 }
 
 .button:focus {
-    background-color: #357ABD;
+    background-color: #2C5A91;
     outline: none;
 }
