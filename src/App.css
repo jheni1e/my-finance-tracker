@@ -1,3 +1,5 @@
+@import "tailwindcss";
+
 #root {
   max-width: 1280px;
   margin: 0 auto;
@@ -39,4 +41,30 @@
 
 .read-the-docs {
   color: #888;
+}
+
+nav {
+  display: flex;
+  padding: 20px;
+}
+
+nav a {
+  color: #2C5A91;
+  text-decoration: none;
+  font-size: 20px;
+  margin-right: 20px;
+}
+
+nav a:hover {
+  color: #357ABD;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
