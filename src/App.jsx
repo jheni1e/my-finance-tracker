@@ -1,9 +1,10 @@
 import './App.css'
 import { Routes, Route, Link } from 'react-router-dom'
-import IncomeForm from './components/IncomeForm'
 import Home from './pages/Home'
 import About from './pages/About'
 import Finances from './pages/Finances'
+import ExpenseForm from './components/ExpenseForm'
+import IncomeForm from './components/IncomeForm'
 
 function App() {
   return (
@@ -16,11 +17,12 @@ function App() {
         </nav>
       </header>
 
-      <IncomeForm></IncomeForm>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/finances" element={<Finances />} />
+        <Route path="/expense" element={<ExpenseForm />} />
+        <Route path="/income" element={<IncomeForm />} />
       </Routes>
     </>
   )

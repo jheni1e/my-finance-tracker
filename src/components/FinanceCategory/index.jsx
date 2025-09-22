@@ -13,7 +13,7 @@ export default function FinanceCategory({ type }) {
     "Alimentação",
     "Transporte",
     "Gastos Pessoais",
-    "Cartão de Crédito/Empréstimos",
+    "Cartão de Crédito",
     "Investimentos",
     "Imprevistos"
   ];

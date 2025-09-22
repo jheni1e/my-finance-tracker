@@ -5,7 +5,7 @@ import FinanceCategory from '../FinanceCategory'
 import TextBox from '../TextBox'
 import DateTime from '../DateTime'
 
-export default function IncomeForm() {
+export default function ExpenseForm() {
     return (
         <>
         <div className="flex flex-col items-center">
@@ -14,7 +14,7 @@ export default function IncomeForm() {
                 <FinanceBox></FinanceBox>
             </div>
             <div className="flex flex-row justify-between">
-                <FinanceCategory type="income"></FinanceCategory>
+                <FinanceCategory type="expense"></FinanceCategory>
                 <DateTime></DateTime>
             </div>
             <Button text="Salvar"></Button>

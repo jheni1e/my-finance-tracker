@@ -1,0 +1,28 @@
+@import 'tailwindcss';
+
+* {
+    font-size: 20px;
+    font-weight: normal;
+    font-family: Helvetica;
+}
+
+input {
+    color-scheme: dark;
+}
+
+.datetime {
+    border: 1px solid #CCDCE8;
+    border-radius: 8px;
+    display: flex;
+    align-content: center;
+    padding: 3px;
+}
+
+.datetime:hover {
+    background-color: #EAF4FB;
+}
+
+.datetime:focus {
+    border-color: #4A90E2; 
+    outline: none;
+}
