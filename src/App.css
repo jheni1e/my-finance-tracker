@@ -9,9 +9,7 @@
 
 @font-face {
   font-family: "Montserrat";
-  src: url("./assets/Montserrat-Black.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
+  src: url("./assets/Montserrat-Thin.ttf") format("truetype");
 }
 
 * {
